@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_self_esteem">4dp</dimen>
+    <dimen name="probably_bigger_than_you_need">32sp</dimen>
+    <dimen name="mediocre">16sp</dimen>
+</resources>

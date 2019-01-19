@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnPetitioner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/my_self_esteem"
+        android:text="@string/app_name"
+        android:background="@color/barely_there_black"
+        android:elevation="@dimen/my_self_esteem"
+        android:fontFamily="@font/nunito_extralight"
+        android:textSize="@dimen/mediocre"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvOracle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="@dimen/my_self_esteem"
+        android:textSize="@dimen/probably_bigger_than_you_need"
+        android:fontFamily="@font/nunito_extralight"
+        android:visibility="gone"/>
+</RelativeLayout>
